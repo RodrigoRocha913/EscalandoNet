@@ -1,0 +1,103 @@
+/* Resetando margens e espaçamentos */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Estilos do Cabeçalho */
+header {
+    background-color: #333;
+    color: white;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .logo h1 {
+    font-size: 24px;
+}
+
+header nav ul {
+    list-style: none;
+    display: flex;
+}
+
+header nav ul li {
+    margin-left: 20px;
+}
+
+header nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* Seção de Notícias Principais */
+.main-news {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.news-item {
+    width: 48%;
+    background-color: #f4f4f4;
+    padding: 10px;
+    border-radius: 8px;
+}
+
+.news-item img {
+    width: 100%;
+    border-radius: 8px;
+}
+
+.news-item h2 {
+    font-size: 20px;
+    margin-top: 10px;
+}
+
+.news-item p {
+    font-size: 14px;
+    margin-top: 10px;
+}
+
+/* Outras Notícias */
+.other-news {
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-style: solid;
+}
+
+.other-news h3 {
+    font-size: 24px;
+    margin-bottom: 15px;
+}
+
+.other-news ul {
+    list-style: none;
+}
+
+.other-news ul li {
+    margin-bottom: 10px;
+}
+
+.other-news ul li a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+}
+
+.other-news ul li a:hover {
+    color: #007BFF;
+}
+
+/* Rodapé */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin-top: 40px;
+}
